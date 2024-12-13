@@ -101,7 +101,7 @@ import fs from "node:fs/promises";
 
   let i = 0;
 
-  const numberOfWrites = 100000000; // 1000000000
+  const numberOfWrites = 500000000; // 1000000000
 
   const writeMany = () => {
     while (i < numberOfWrites) {
